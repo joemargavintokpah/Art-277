@@ -1,0 +1,56 @@
+. {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-size: 16px;
+  letter-spacing: normal;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  color: blue;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 0%;
+}
+
+nav {
+  background-color: rgb(2, 2, 31);
+  height: 4rem;
+  padding: 0em;
+  color: white
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0em
+}
+
+nav a :hover {
+  background-color: rgb(1, 1, 8)
+}
+
+.banner {
+  width: 100%
+}
+
+.section_two img {
+  width: 30%;
+  height: 187px;
+  float: right;
+}
+
+.footer {
+  background-color: rgb(2, 2, 31);
+  height: 5rem;
+  color: white
+}
